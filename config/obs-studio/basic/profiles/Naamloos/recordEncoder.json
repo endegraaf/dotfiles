@@ -1,0 +1,6 @@
+{
+    "preset": "medium",
+    "profile": "high",
+    "rate_control": "CBR",
+    "tune": "fastdecode"
+}
