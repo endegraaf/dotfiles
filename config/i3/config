@@ -9,7 +9,7 @@
 # layout, use the i3-config-wizard
 #
 set $HOME /home/egraaf
-set $exe exec --no-startup-id exec
+set $exe exec --no-startup-id  
 
 #font pango:DeJaVu Sans Mono 16
 font pango:Terminus 14px 
@@ -215,15 +215,16 @@ $exe feh --randomize --bg-fill ~/Pictures/Backgrounds\ Wallpapers\ HD/*
 exec autorandr -l home
 $exe copyq
 $exe $HOME/scripts/polybarstart
-$exe "i3-msg 'workspace 1; append_layout /home/egraaf/.i3/workspace-1.json'"
+#$exe "i3-msg 'workspace 1; append_layout /home/egraaf/.i3/workspace-1.json'"
 #exec --no-startup-id i3-msg 'exec "urxvt +sb -name htop -e /usr/bin/htop"'
 #exec --no-startup-id i3-msg 'exec "urxvt +sb -name log -e tail -f /var/log/messages"'
 #exec --no-startup-id i3-msg 'exec "urxvt"'
-$exe i3-msg 'exec "firefox +sb -name firefox -e firefox"'
+#$exe i3-msg 'exec "firefox +sb -name firefox -e firefox"'
 #
 #i3 tweaks
 #for_window [title="Desktop — Plasma"] kill; floating enable; border none
 for_window [class="Kmix"] floating enable; border none
+for_window [title="Remmina Remote Desktop Client"] floating enable; border none
 #for_window [class="Mozilla Firefox"] floating enable; border none
 
 #i3fyra

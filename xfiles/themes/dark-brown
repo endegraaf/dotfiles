@@ -1,4 +1,4 @@
-#define bg                 #3b3228
+#define bg
 #define fg                 #d0c8c6
 
 #define blk                #3b3228

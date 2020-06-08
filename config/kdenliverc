@@ -3,15 +3,15 @@ Height 1080=755
 Width 1920=1124
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Videos/Koken/Clip.kdenlive,file:$HOME/Videos/Koken/Clip.mp4,file:$HOME/Videos/Koken/VID_20200602_185208.mp4,file:$HOME/Videos/Koken/VID_20200602_184122.mp4,file:$HOME/Videos/Koken/VID_20200602_184108.mp4,file:$HOME/Videos/Koken/VID_20200602_183916.mp4,file:$HOME/Videos/Koken/VID_20200602_183641.mp4,file:$HOME/Videos/Koken/VID_20200602_183405.mp4,file:$HOME/Videos/Koken/VID_20200602_183303.mp4,file:$HOME/Videos/Koken/VID_20200602_182711.mp4,file:$HOME/Videos/Koken/VID_20200602_182308.mp4,file:$HOME/Videos/Koken/VID_20200602_181531.mp4,file:$HOME/Videos/Koken/VID_20200602_180412.mp4,file:$HOME/Videos/Koken/VID_20200602_180055.mp4,file:$HOME/Videos/Koken/VID_20200602_180039.mp4,file:$HOME/Videos/Koken/VID_20200602_175541.mp4
-Recent URLs[$e]=file:$HOME/Videos/Koken/
+Recent Files[$e]=file:$HOME/Videos/Koken/Clip.kdenlive,file:$HOME/Videos/TesterTech visuals/c0ed9589-24e9-4e83-afa4-3c2e41fd5973.mp4,file:$HOME/Videos/TesterTech visuals/Audio-intro-10-sec-Den-Eric.ogg,file:$HOME/Videos/TesterTech visuals/Final Clip 10 seconds.wav,file:$HOME/Downloads/DK7E0M.jpg,file:$HOME/Downloads/00100lrPORTRAIT_00100_BURST20200525163348099_COVER.jpg,file:$HOME/00012.MTS,file:$HOME/Videos/Koken/Clip.mp4,file:$HOME/Videos/Koken/VID_20200602_185208.mp4,file:$HOME/Videos/Koken/VID_20200602_184122.mp4,file:$HOME/Videos/Koken/VID_20200602_184108.mp4,file:$HOME/Videos/Koken/VID_20200602_183916.mp4,file:$HOME/Videos/Koken/VID_20200602_183641.mp4,file:$HOME/Videos/Koken/VID_20200602_183405.mp4,file:$HOME/Videos/Koken/VID_20200602_183303.mp4,file:$HOME/Videos/Koken/VID_20200602_182711.mp4
+Recent URLs[$e]=file:$HOME/Videos/TesterTech visuals/
 detailViewIconSize=0
 
 [MainWindow]
 Height 1080=979
 Height 720=979
 Height 900=480
-State=AAAA/wAAAAD9AAAAAQAAAAIAAAeAAAACAvwBAAAADvsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAYgEAAAX7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAYgEAAAX7AAAAFABzAGMAcgBlAGUAbgBnAHIAYQBiAAAAAAD/////AAAAnAEAAAX7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAbQEAAAX7AAAAFgBwAHIAbwBqAGUAYwB0AF8AYgBpAG4BAAAAAAAAAe8AAABiAQAABfwAAAHyAAABSAAAAIsA////+gAAAAABAAAAAvsAAAAYAGUAZgBmAGUAYwB0AF8AcwB0AGEAYwBrAQAAAAD/////AAAATgEAAAX7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAE4BAAAF/AAAAz0AAAF7AAAAiwD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAAAGAQAABfsAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAAYBAAAF/AAABLsAAAJcAAABRgD////6AAAAAQEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFGAQAABfsAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABRgEAAAX7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAGIBAAAF+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABawEAAAX7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAAC/AQAABfsAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAAC6AQAABfsAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAABhcAAAFpAAABjgEAAAX7AAAACgBtAGkAeABlAHIBAAAHGgAAAGYAAABmAAAAZgAAB4AAAAFkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgEAAAJs/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAT+AAABpfwBAAAADvsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAYAEAAAP7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAZwEAAAP7AAAAFABzAGMAcgBlAGUAbgBnAHIAYQBiAAAAAAD/////AAAAigEAAAP7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAZAEAAAP7AAAAFgBwAHIAbwBqAGUAYwB0AF8AYgBpAG4BAAAAAAAAALsAAABgAQAAA/wAAAC8AAABFQAAAIsA////+gAAAAABAAAAAvsAAAAYAGUAZgBmAGUAYwB0AF8AcwB0AGEAYwBrAQAAAAD/////AAAAVwEAAAP7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAFcBAAAD/AAAAdIAAACiAAAAiwD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAAAEAQAAA/sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAAQBAAAD/AAAAnUAAAIkAAABRAD////6AAAAAQEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFEAQAAA/sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABRAEAAAP7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAGABAAAD+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABJgEAAAP7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAGeAAAAKEAAAChAQAAA/sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACcAQAAA/sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAABhcAAAFpAAABQgEAAAP7AAAACgBtAGkAeABlAHIBAAAEmgAAAGQAAABkAAAAZAAABP4AAAChAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgEAAAIZ/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=1920
 Width 1600=711
@@ -24,23 +24,23 @@ Window-Maximized 900x1600=true
 ToolButtonStyle=IconOnly
 
 [Recent Dirs]
-KdenliveClipFolder[$e]=$HOME/Videos/Koken/,$HOME/Videos/,$HOME/Videos/ootb-experience-oss-projects/
+KdenliveClipFolder[$e]=$HOME/Videos/TesterTech visuals/,$HOME/Downloads/,$HOME/
 KdenliveFramesFolder[$e]=$HOME/Videos/TesterTech visuals/,$HOME/Documents
-KdenliveProjectsFolder[$e]=$HOME/Videos/Koken,$HOME/Videos/ootb-experience-oss-projects,$HOME/Videos/Enhance-Vagrant-using-scripting
+KdenliveProjectsFolder[$e]=$HOME/Videos/TesterTech visuals,$HOME/Videos/Koken,$HOME/Videos/ootb-experience-oss-projects
 
 [Recent Files]
-File1[$e]=$HOME/Videos/TesterTech visuals/Intro-with-music.kdenlive
-File2[$e]=$HOME/Videos/Silverblue-and-Archlinux/Silverblue-and-Archlinux.kdenlive
-File3[$e]=$HOME/Videos/Enhance-Vagrant-using-scripting/Video.kdenlive
-File4[$e]=$HOME/Videos/Enhance-Vagrant-using-scripting/Enhance-Vagrant-using-scripting.kdenlive
-File5[$e]=$HOME/Videos/ootb-experience-oss-projects/Video.kdenlive
-File6[$e]=$HOME/Videos/Koken/Clip.kdenlive
-Name1[$e]=Intro-with-music.kdenlive
-Name2[$e]=Silverblue-and-Archlinux.kdenlive
-Name3[$e]=Video.kdenlive
-Name4[$e]=Enhance-Vagrant-using-scripting.kdenlive
-Name5[$e]=Video.kdenlive
-Name6[$e]=Clip.kdenlive
+File1[$e]=$HOME/Videos/Silverblue-and-Archlinux/Silverblue-and-Archlinux.kdenlive
+File2[$e]=$HOME/Videos/Enhance-Vagrant-using-scripting/Video.kdenlive
+File3[$e]=$HOME/Videos/Enhance-Vagrant-using-scripting/Enhance-Vagrant-using-scripting.kdenlive
+File4[$e]=$HOME/Videos/ootb-experience-oss-projects/Video.kdenlive
+File5[$e]=$HOME/Videos/Koken/Clip.kdenlive
+File6[$e]=$HOME/Videos/TesterTech visuals/Intro-with-music.kdenlive
+Name1[$e]=Silverblue-and-Archlinux.kdenlive
+Name2[$e]=Video.kdenlive
+Name3[$e]=Enhance-Vagrant-using-scripting.kdenlive
+Name4[$e]=Video.kdenlive
+Name5[$e]=Clip.kdenlive
+Name6[$e]=Intro-with-music.kdenlive
 
 [Scope_Histogram]
 autoRefresh=true
@@ -81,7 +81,7 @@ ColorScheme=2blue-EdG
 
 [bin]
 bin_zoom=1
-treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAA9AAAAUAAAAAMBAQABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAABQAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAEQ=
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAA9AAAA5gAAAAMBAQABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAADmAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAEQ=
 
 [capture]
 decklink_extension=mov
@@ -113,7 +113,6 @@ favorite_effects=volume,lift_gamma_gain,qtblend,fade_to_black,fade_from_black,fa
 mixerCollapse=true
 monitor_audio=false
 producerslist=xml,xml-string,xml-nogl,decklink,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,qimage,qtext,kdenlivetitle,slowmotion,vorbis,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,framebuffer,ladspa.1047,ladspa.1050,pgm,avformat,avformat-novalidate,blipflash,count,pango,pixbuf
-project_fps=30
 widgetstyle=Default
 
 [version]
