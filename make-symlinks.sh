@@ -1,5 +1,6 @@
 #!/bin/bash
 echo Make Symlinks to ~/git/dotfiles/ ... 
+ln -s ~/git/dotfiles/bashrc ~/.bashrc
 ln -s ~/git/dotfiles/config/autorandr/ ~/.config/autorandr
 ln -s ~/git/dotfiles/config/copyq/copyq.conf ~/.config/copyq/copyq.conf
 ln -s ~/git/dotfiles/config/fontconfig/fonts.conf ~/.config/fontconfig/fonts.conf
@@ -16,3 +17,7 @@ ln -s ~/git/dotfiles/Xmodmap ~/.Xmodmap
 ln -s ~/git/dotfiles/config/touchpadrc ~/.config/touchpadrc
 ln -s ~/git/dotfiles/config/touchpadxlibinputrc ~/.config/touchpadxlibinputrc
 
+echo Plug for Vim plugin management
+
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+            https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
