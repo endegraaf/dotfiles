@@ -19,7 +19,10 @@ set undofile
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-
+" if plug not installed you get an error
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
@@ -46,13 +49,13 @@ let g:netrw_banner = 0
 let g:netrw_winsize = 25
 let g:ctrlp_use_caching = 0
 
-nnoremap <leader>h :wincmd h<CR>
-nnoremap <leader>j :wincmd j<CR>
-nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader>l :wincmd l<CR>
+nnoremap <leader>j :wincmd h<CR>
+nnoremap <leader>k :wincmd j<CR>
+nnoremap <leader>l :wincmd k<CR>
+nnoremap <leader>; :wincmd l<CR>
 nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
-nnoremap <Leader>+ :vertical resize +5<CR>
+nnoremap <Leader>= :vertical resize +5<CR>
 nnoremap <Leader>- :vertical resize -5<CR>
 nnoremap <Leader>e :Explore <CR>
 

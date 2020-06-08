@@ -16,7 +16,7 @@ export ANDROID_HOME=~/Android/Sdk
 export HISTCONTROL=ignoredups:ignorespace
 export XDG_DATA_DIRS="/usr/share:$HOME/.local/share/flatpak/exports/share/applications:/var/lib/flatpak/exports/share/applications"
 # https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications#Styles_for_both_Qt_and_GTK
-export QT_QPA_PLATFORMTHEME=gnome
+export QT_QPA_PLATFORMTHEME=qt5ct
 # User specific aliases and functions
 alias nan='netstat -an |grep LISTEN | grep tcp'
 alias monmock='netstat -an |grep tcp |grep :::8'

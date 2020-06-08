@@ -120,10 +120,10 @@ XftSubPixel=rgb
 dbfile=/home/egraaf/.mozilla/firefox/f0bd5vy0.default/places.sqlite
 fixed=Source Code Pro,12,-1,5,25,0,0,0,0,0,Light
 font=Noto Sans,12,-1,5,50,0,0,0,0,0,Regular
-menuFont=Sans Serif,12,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Sans Serif,11,-1,5,50,0,0,0,0,0
-toolBarFont=Sans Serif,12,-1,5,50,0,0,0,0,0
+smallestReadableFont=Noto Sans,11,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
@@ -137,7 +137,7 @@ ShowDeleteCommand=false
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 contrast=4
-widgetStyle=Breeze
+widgetStyle=qt5ct-style
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -152,9 +152,9 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Name
+Sort by=Date
 Sort directories first=true
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=162
 View Style=DetailTree
 
@@ -175,7 +175,7 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 [WM]
 activeBackground=246,245,244
 activeBlend=246,245,244
-activeFont=Sans Serif,12,-1,5,50,0,0,0,0,0
+activeFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 activeForeground=39,44,46
 inactiveBackground=246,245,244
 inactiveBlend=246,245,244
