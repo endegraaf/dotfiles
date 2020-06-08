@@ -40,7 +40,9 @@ alias polyconf='vim ~/.config/polybar/config'
 alias killteams='pkill teams'
 release=$(sed -n 1p  /etc/os-release)
 if [[ $release == *"Fedora"* ]]; then
-  echo "Set the Silverblue specific aliases"
+  echo "Running on Fedora " $HOSTNAME
+if [[ $HOSTNAME == "alten-l036.local" ]]; then
+  echo "... set flatpak specific aliases"
   alias gedit='flatpak run org.gnome.gedit'
   alias code='flatpak run com.visualstudio.code'
   alias vim='flatpak run org.vim.Vim'
@@ -48,6 +50,7 @@ if [[ $release == *"Fedora"* ]]; then
   alias roi='rpm-ostree install'
   alias rou='rpm-ostree update'
   alias docker='podman'
+fi
 fi
 # Only run Dropbox on one OS
 if [[ $release == *"Arch Linux"* ]]; then
