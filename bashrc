@@ -59,7 +59,7 @@ if [[ $release == *"Arch Linux"* ]]; then
       echo "Dropbox is running" 
   else 
       echo "Dropbox not running, starting"
-      $HOME/.dropbox-dist/dropboxd & 
+      $HOME/.dropbox-dist/dropboxd &  >/dev/null 2>&1 
   fi
 fi
 # If running in TTY mode, increase the font size
