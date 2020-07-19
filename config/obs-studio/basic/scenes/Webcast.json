@@ -17,7 +17,7 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Noise Suppression",
-                "prev_ver": 402653190,
+                "prev_ver": 419430408,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
@@ -25,6 +25,7 @@
                 "push-to-talk-delay": 0,
                 "settings": {},
                 "sync": 0,
+                "versioned_id": "noise_suppress_filter",
                 "volume": 1.0
             }
         ],
@@ -40,17 +41,18 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "Mic/Aux",
-        "prev_ver": 402653190,
+        "prev_ver": 419430408,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "alsa_input.usb-Razer_Inc_Razer_Seiren_X_UC1920L01201316-00.analog-stereo"
+            "device_id": "default"
         },
         "sync": 0,
-        "volume": 0.88222622871398926
+        "versioned_id": "pulse_input_capture",
+        "volume": 0.4717884361743927
     },
     "DesktopAudioDevice1": {
         "balance": 0.5,
@@ -69,16 +71,17 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "Desktop Audio",
-        "prev_ver": 402653190,
+        "prev_ver": 419430408,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "default"
+            "device_id": "alsa_output.pci-0000_00_1f.3.analog-stereo.monitor"
         },
         "sync": 0,
+        "versioned_id": "pulse_output_capture",
         "volume": 0.59468662738800049
     },
     "current_program_scene": "Scène",
@@ -111,6 +114,7 @@
     "quick_transitions": [
         {
             "duration": 300,
+            "fade_to_black": false,
             "hotkeys": [],
             "id": 1,
             "name": "Fade"
@@ -139,7 +143,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Prim. Desktop",
-            "prev_ver": 402653190,
+            "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -150,6 +154,7 @@
                 "screen": 0
             },
             "sync": 0,
+            "versioned_id": "xshm_input",
             "volume": 1.0
         },
         {
@@ -161,24 +166,24 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Media Source": [],
-                "libobs.hide_scene_item.Media Source 2": [],
                 "libobs.hide_scene_item.Prim. Desktop": [],
-                "libobs.hide_scene_item.Secondary": [],
+                "libobs.hide_scene_item.Sec. Desktop": [],
+                "libobs.hide_scene_item.Slides": [],
                 "libobs.hide_scene_item.Video Capture Device (V4L2)": [],
-                "libobs.hide_scene_item.Webcam": [],
+                "libobs.hide_scene_item.Window Capture (Xcomposite)": [],
                 "libobs.show_scene_item.Media Source": [],
-                "libobs.show_scene_item.Media Source 2": [],
                 "libobs.show_scene_item.Prim. Desktop": [],
-                "libobs.show_scene_item.Secondary": [],
+                "libobs.show_scene_item.Sec. Desktop": [],
+                "libobs.show_scene_item.Slides": [],
                 "libobs.show_scene_item.Video Capture Device (V4L2)": [],
-                "libobs.show_scene_item.Webcam": []
+                "libobs.show_scene_item.Window Capture (Xcomposite)": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
             "name": "Scène",
-            "prev_ver": 402653190,
+            "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -186,7 +191,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 24,
+                "id_counter": 37,
                 "items": [
                     {
                         "align": 5,
@@ -220,35 +225,6 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 7,
-                        "locked": false,
-                        "name": "Secondary",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
                             "x": 0.0,
                             "y": 0.0
                         },
@@ -259,18 +235,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 9,
+                        "id": 29,
                         "locked": false,
-                        "name": "Webcam",
+                        "name": "Sec. Desktop",
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 559.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 0.72421872615814209,
+                            "y": 0.72361111640930176
                         },
                         "scale_filter": "disable",
                         "visible": false
@@ -292,17 +268,46 @@
                         "locked": false,
                         "name": "Video Capture Device (V4L2)",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1547.0,
+                            "y": 800.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.58281248807907104,
+                            "y": 0.58333331346511841
                         },
                         "scale_filter": "disable",
                         "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 30,
+                        "locked": false,
+                        "name": "Slides",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 606.48583984375
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.74315071105957031,
+                            "y": 0.74289578199386597
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -321,14 +326,14 @@
                         "locked": false,
                         "name": "Media Source",
                         "pos": {
-                            "x": 1532.0,
-                            "y": 862.0
+                            "x": 848.0,
+                            "y": 27.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.30359938740730286,
-                            "y": 0.30362117290496826
+                            "x": 0.71517997980117798,
+                            "y": 0.71448469161987305
                         },
                         "scale_filter": "disable",
                         "visible": false
@@ -346,70 +351,12 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 16,
+                        "id": 37,
                         "locked": false,
-                        "name": "Media Source",
+                        "name": "Window Capture (Xcomposite)",
                         "pos": {
-                            "x": -2.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.5039123296737671,
-                            "y": 1.5041782855987549
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Webcam",
-                        "pos": {
-                            "x": 1505.88232421875,
-                            "y": 769.6744384765625
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.64705884456634521,
-                            "y": 0.64651161432266235
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 24,
-                        "locked": false,
-                        "name": "Media Source 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1184.0,
+                            "y": 354.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -423,61 +370,7 @@
                 ]
             },
             "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 2,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "v4l2_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Webcam",
-            "prev_ver": 402653190,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "buffering": true,
-                "color_range": 2,
-                "device_id": "/dev/video3",
-                "framerate": 65566,
-                "input": 0,
-                "pixelformat": 1448695129,
-                "resolution": -1
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "xshm_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Secondary",
-            "prev_ver": 402653190,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "advanced": false,
-                "screen": 1
-            },
-            "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -492,14 +385,27 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Video Capture Device (V4L2)",
-            "prev_ver": 402653190,
+            "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "settings": {},
+            "settings": {
+                "Contrast": 33,
+                "Exposure, Auto": 5557561106012987725,
+                "Gain": 67,
+                "Power Line Frequency": 7234307546238118212,
+                "White Balance Temperature": 3910,
+                "White Balance Temperature, Auto": true,
+                "Zoom, Absolute": 2,
+                "color_range": 0,
+                "device_id": "/dev/video2",
+                "input": 0,
+                "pixelformat": 1448695129
+            },
             "sync": 0,
+            "versioned_id": "v4l2_input",
             "volume": 1.0
         },
         {
@@ -509,7 +415,10 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
                 "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -520,7 +429,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Media Source",
-            "prev_ver": 402653190,
+            "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -532,6 +441,7 @@
                 "is_local_file": false
             },
             "sync": 0,
+            "versioned_id": "ffmpeg_source",
             "volume": 1.0
         },
         {
@@ -540,26 +450,105 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "MediaSource.Restart": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 255,
+            "hotkeys": {},
+            "id": "xshm_input",
+            "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Media Source 2",
-            "prev_ver": 402653190,
+            "name": "Sec. Desktop",
+            "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "settings": {},
+            "settings": {
+                "screen": 1
+            },
             "sync": 0,
+            "versioned_id": "xshm_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "xcomposite_input",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Slides",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_window": "41943047\r\nimg0.png\r\neog",
+                "exclude_alpha": false,
+                "include_border": false,
+                "swap_redblue": true
+            },
+            "sync": 0,
+            "versioned_id": "xcomposite_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "left": 400,
+                        "right": 200
+                    },
+                    "sync": 0,
+                    "versioned_id": "crop_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "xcomposite_input",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Window Capture (Xcomposite)",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_window": "119537686\r\nPixel 3 XL\r\nscrcpy",
+                "swap_redblue": true
+            },
+            "sync": 0,
+            "versioned_id": "xcomposite_input",
             "volume": 1.0
         }
     ],

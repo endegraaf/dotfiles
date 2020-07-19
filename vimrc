@@ -14,7 +14,7 @@ set incsearch
 set nobackup 
 set undodir=~/.vim/undodir
 set undofile
-
+set laststatus=2
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -33,11 +33,11 @@ Plug 'lyuts/vim-rtags'
 Plug 'kien/ctrlp.vim'
 "Plug 'ycm-core/YouCompleteMe'
 Plug 'mbbill/undotree'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 colorscheme gruvbox
 set background=dark
-
 if executable('rg')
     let g:rg_derive_root='true'
 endif
