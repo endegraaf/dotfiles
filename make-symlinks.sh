@@ -1,5 +1,7 @@
 #!/bin/bash
 echo Make Symlinks to ~/git/dotfiles/ ... 
+if [[ -d ~/git/dotfiles ]]; 
+then
 ln -s ~/git/dotfiles/bashrc ~/.bashrc
 ln -s ~/git/dotfiles/config/autorandr/ ~/.config/autorandr
 ln -s ~/git/dotfiles/config/copyq/copyq.conf ~/.config/copyq/copyq.conf
@@ -16,7 +18,9 @@ ln -s ~/git/dotfiles/vimrc ~/.vimrc
 ln -s ~/git/dotfiles/Xmodmap ~/.Xmodmap 
 ln -s ~/git/dotfiles/config/touchpadrc ~/.config/touchpadrc
 ln -s ~/git/dotfiles/config/touchpadxlibinputrc ~/.config/touchpadxlibinputrc
-
+else
+        echo Missing the dotfiles dir in the git folder!
+fi
 echo Plug for Vim plugin management
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
