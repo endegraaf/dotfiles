@@ -31,9 +31,11 @@ Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'kien/ctrlp.vim'
-"Plug 'ycm-core/YouCompleteMe'
 Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
+Plug 'preservim/nerdtree'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 colorscheme gruvbox
