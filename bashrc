@@ -40,6 +40,7 @@ alias i3conf='vim ~/.config/i3/config'
 alias bashrc='vim ~/.bashrc'
 alias polyconf='vim ~/.config/polybar/config'
 alias killteams='pkill teams'
+alias reload-fontcache='sudo fc-cache -f -v '
 release=$(sed -n 1p  /etc/os-release)
 if [[ $release == *"Fedora"* ]]; then
   echo "Running on Fedora " $HOSTNAME
