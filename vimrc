@@ -62,10 +62,10 @@ nnoremap <Leader>- :vertical resize -5<CR>
 nnoremap <Leader>e :Explore <CR>
 
 " https://stackoverflow.com/questions/3083928/vim-remapping-the-hjkl
-noremap ; l
-noremap l k
-noremap k j
-noremap j h
+"noremap ; l
+"noremap l k
+"noremap k j
+"noremap j h
 
 " https://vim.fandom.com/wiki/Accessing_the_system_clipboard
 "

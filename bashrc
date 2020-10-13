@@ -41,6 +41,7 @@ alias bashrc='vim ~/.bashrc'
 alias polyconf='vim ~/.config/polybar/config'
 alias killteams='pkill teams'
 alias start-winvm='vboxmanage startvm "Win 8.1 ENG" --type headless'
+alias reload-fontcache='sudo fc-cache -f -v '
 release=$(sed -n 1p  /etc/os-release)
 if [[ $release == *"Fedora"* ]]; then
   echo "Running on Fedora " $HOSTNAME
