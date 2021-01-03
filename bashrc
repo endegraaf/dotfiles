@@ -10,7 +10,7 @@ if [ -f $HOME/.bash-secrets ]; then
   . $HOME/.bash-secrets
 fi
 JAVA_HOME=$HOME/JAVA/jdk11/
-PATH="$HOME/Apps:$HOME/.local/bin:$HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$PATH"
+PATH="/opt/Citrix/ICAClient/:$HOME/Apps:$HOME/.local/bin:$HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$PATH"
 export PATH
 export ANDROID_HOME=~/Android/Sdk
 export HISTCONTROL=ignoredups:ignorespace
@@ -40,6 +40,8 @@ alias i3conf='vim ~/.config/i3/config'
 alias bashrc='vim ~/.bashrc'
 alias polyconf='vim ~/.config/polybar/config'
 alias killteams='pkill teams'
+alias psef='ps -ef | grep -i '
+alias subl='flatpak run com.sublimetext.three'
 release=$(sed -n 1p  /etc/os-release)
 if [[ $release == *"Fedora"* ]]; then
   echo "Running on Fedora " $HOSTNAME
@@ -130,3 +132,11 @@ PS2="> "
 #. $HOME/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
 #
 
+#CopyQ
+pkill copyq 
+echo Starting CopyQ
+copyq & 
+#echo Start Windows VM in background 
+#vboxmanage startvm "Win 8.1 ENG" --type headless
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
