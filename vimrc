@@ -1,7 +1,9 @@
 " from primagen youtube video
 " https://www.youtube.com/watch?v=n9k9scbTuvQ
+execute pathogen#infect()
+filetype plugin indent on
 syntax on
-
+runtime! plugin/sensible.vim
 set noerrorbells
 set tabstop=4 softtabstop=4
 set expandtab
@@ -22,6 +24,9 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 " if plug not installed you get an error
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 "   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
+" if pathogen error
+" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 "
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
@@ -62,10 +67,10 @@ nnoremap <Leader>- :vertical resize -5<CR>
 nnoremap <Leader>e :Explore <CR>
 
 " https://stackoverflow.com/questions/3083928/vim-remapping-the-hjkl
-noremap ; l
-noremap l k
-noremap k j
-noremap j h
+"noremap ; l
+"noremap l k
+"noremap k j
+"noremap j h
 
 " https://vim.fandom.com/wiki/Accessing_the_system_clipboard
 "
