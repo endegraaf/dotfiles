@@ -9,9 +9,10 @@ if [ -f $HOME/.bash-secrets ]; then
   echo ... 
   . $HOME/.bash-secrets
 fi
-JAVA_HOME=$HOME/JAVA/jdk11/
+JAVA_HOME=$HOME/Apps/JAVA/jdk-11/
 PATH="/opt/Citrix/ICAClient/:$HOME/Apps:$HOME/.local/bin:$HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$PATH"
 export PATH
+export EDIT0R=vim
 export ANDROID_HOME=~/Android/Sdk
 export HISTCONTROL=ignoredups:ignorespace
 export XDG_DATA_DIRS="/usr/share:$HOME/.local/share/flatpak/exports/share/applications:/var/lib/flatpak/exports/share/applications"
@@ -42,6 +43,9 @@ alias polyconf='vim ~/.config/polybar/config'
 alias killteams='pkill teams'
 alias psef='ps -ef | grep -i '
 alias subl='flatpak run com.sublimetext.three'
+alias start-winvm='vboxmanage startvm "Win 8.1 ENG" --type headless'
+alias reload-fontcache='sudo fc-cache -f -v '
+alias history=hist
 release=$(sed -n 1p  /etc/os-release)
 if [[ $release == *"Fedora"* ]]; then
   echo "Running on Fedora " $HOSTNAME
@@ -124,7 +128,6 @@ PS2="> "
     esac
  }
  powerprompt     # This is the default prompt -- might be slow.
-
 
 #powerline-daemon -q
 #POWERLINE_BASH_CONTINUATION=1
