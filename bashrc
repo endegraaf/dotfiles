@@ -9,12 +9,16 @@ if [ -f $HOME/.bash-secrets ]; then
   echo ... 
   . $HOME/.bash-secrets
 fi
+if [ -f $HOME/.bash_aliases ]; then
+  echo loading bash aliases
+  . $HOME/.bash_aliases
+fi
 JAVA_HOME=$HOME/Apps/JAVA/jdk-11/
 PATH="/opt/Citrix/ICAClient/:$HOME/Apps:$HOME/.local/bin:$HOME/bin:$JAVA_HOME/bin:$HOME/scripts:$PATH"
 export PATH
 export EDIT0R=vim
 export ANDROID_HOME=~/Android/Sdk
-export HISTCONTROL=ignoredups:ignorespace
+export HISTCONTROL=ignoredups:erasedups:ignorespace
 export XDG_DATA_DIRS="/usr/share:$HOME/.local/share/flatpak/exports/share/applications:/var/lib/flatpak/exports/share/applications"
 # https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications#Styles_for_both_Qt_and_GTK
 export QT_QPA_PLATFORMTHEME=qt5ct
@@ -45,7 +49,7 @@ alias psef='ps -ef | grep -i '
 alias subl='flatpak run com.sublimetext.three'
 alias start-winvm='vboxmanage startvm "Win 8.1 ENG" --type headless'
 alias reload-fontcache='sudo fc-cache -f -v '
-alias history=hist
+alias hist=history
 release=$(sed -n 1p  /etc/os-release)
 if [[ $release == *"Fedora"* ]]; then
   echo "Running on Fedora " $HOSTNAME
@@ -133,12 +137,11 @@ PS2="> "
 #POWERLINE_BASH_CONTINUATION=1
 #POWERLINE_BASH_SELECT=1
 #. $HOME/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
-#
 
 #CopyQ
-pkill copyq 
-echo Starting CopyQ
-copyq & 
+#pkill copyq 
+#echo Starting CopyQ
+#copyq & 
 #echo Start Windows VM in background 
 #vboxmanage startvm "Win 8.1 ENG" --type headless
 
