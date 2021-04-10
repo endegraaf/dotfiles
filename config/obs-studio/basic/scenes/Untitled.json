@@ -16,7 +16,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Mic/Aux",
-        "prev_ver": 402653189,
+        "prev_ver": 436273152,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -26,6 +26,7 @@
             "device_id": "default"
         },
         "sync": 0,
+        "versioned_id": "pulse_input_capture",
         "volume": 1.0
     },
     "DesktopAudioDevice1": {
@@ -45,7 +46,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio",
-        "prev_ver": 402653189,
+        "prev_ver": 436273152,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -55,6 +56,7 @@
             "device_id": "default"
         },
         "sync": 0,
+        "versioned_id": "pulse_output_capture",
         "volume": 1.0
     },
     "current_program_scene": "Scene",
@@ -68,6 +70,9 @@
             "non_matching_scene": "",
             "switch_if_not_matching": false,
             "switches": []
+        },
+        "decklink_captions": {
+            "source": ""
         },
         "output-timer": {
             "autoStartRecordTimer": false,
@@ -87,12 +92,14 @@
     "quick_transitions": [
         {
             "duration": 300,
+            "fade_to_black": false,
             "hotkeys": [],
             "id": 1,
             "name": "Cut"
         },
         {
             "duration": 300,
+            "fade_to_black": false,
             "hotkeys": [],
             "id": 2,
             "name": "Fade"
@@ -123,7 +130,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Scene",
-            "prev_ver": 402653189,
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -135,6 +142,7 @@
                 "items": []
             },
             "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         }
     ],
