@@ -66,6 +66,12 @@ nnoremap <Leader>= :vertical resize +5<CR>
 nnoremap <Leader>- :vertical resize -5<CR>
 nnoremap <Leader>e :Explore <CR>
 
+" https://medium.com/@victormours/a-better-nerdtree-setup-3d3921abc0b9 
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" open and close nerdtree
+nnoremap <Leader>f :NERDTreeToggle<Enter>
+
 " https://stackoverflow.com/questions/3083928/vim-remapping-the-hjkl
 "noremap ; l
 "noremap l k
