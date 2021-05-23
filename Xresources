@@ -48,7 +48,7 @@ URxvt.keysym.M-v:   perl:clipboard:paste
 URxvt*depth: 32
 URxvt.background: [80]#3b3228
 
-#include "/home/egraaf/.xfiles/themes/gruvbox"
+#include "/home/demo/.xfiles/themes/monokay"
 
 URxvt.font: xft:fnt1:size=fntsz2
 
